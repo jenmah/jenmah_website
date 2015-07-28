@@ -1,0 +1,107 @@
+.portfolio {
+	margin-bottom: 16%;
+}
+
+.one-half {
+	width: 50%;
+	margin-top: 7%;
+}
+
+.seventy-percent {
+	width: 70%;
+	margin-top: 7%;
+}
+
+.ninety-percent {
+	width: 80%;
+	margin-top: 7%;
+}
+
+.one-hundred-percent {
+	width: 100%;
+	margin-top: 7%;
+}
+
+.one-third {
+	width: 30%;
+	display: inline-block;
+}
+
+.one-quater {
+	width: 25%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.pdf-download {
+	text-align: center;
+	vertical-align: top;
+	margin-top: 7%;
+	margin-left: 7%;
+	padding: 5.5% 0% 0% 0%;
+		.fa {
+			color: rgba(198, 172, 140, 1);
+			margin-bottom: 10%;
+		}
+		h4 {
+			margin: 0;
+		}
+		p {
+			margin: 0;
+		}
+		.download-here {
+			margin-bottom: 25%;
+		}
+}
+
+.education {
+	border-top: 1px solid rgba(210, 210, 210, 1);
+	h4 {
+		margin: 0;
+	}
+	p {
+		margin: 0;
+	}
+}
+
+.bottom-border {
+	border-bottom: 1px solid rgba(210, 210, 210, 1);
+}
+
+.resume-date {
+	display: inline-block;
+	width: 20%;
+	// border: 1px solid red;
+	vertical-align: middle;
+}
+
+.education-description {
+	padding-top: 3%;
+	padding-bottom: 3%;
+	display: inline-block;
+	width: 65%;
+	// border: 1px solid red;
+	vertical-align: middle;
+	p {
+		line-height: 150%;
+	}
+}
+
+.experience {
+	p {
+		margin: 1% 0% 2% 0%;
+		.italic {
+			margin-bottom: 2%;
+		}
+	}
+	h4 {
+		margin: 5% 0% 0% 0%;
+	}
+}
+
+.project {
+	margin-right: 3%;
+	vertical-align: top;
+}

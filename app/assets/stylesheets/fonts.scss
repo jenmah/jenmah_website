@@ -1,0 +1,61 @@
+.no-margin {
+	margin: 0;
+}
+
+.italic {
+	font-style: italic;
+}
+
+h1 {
+font-family: 'Playfair Display', serif;
+color: rgba(198, 172, 140, 1);
+font-size: 34px;
+margin: 0;
+}
+
+h2 {
+font-family: 'Playfair Display', serif;
+color: rgba(198, 172, 140, 1);
+font-size: 22px;
+margin: 0;
+font-style: italic;
+font-weight: 400;
+}
+
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	color: rgba(200, 200, 200, 1);
+	font-style: italic;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: rgba(198, 172, 140, 1);
+}
+
+p {
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: rgba(150, 150, 150, 1);
+	line-height: 25px;
+}
+
+
+hr {
+  background-color: rgba(210, 210, 210, 1);
+  height: 1px;
+  border: none;
+  margin-top: 3%;
+}
+
+.section-header {
+	text-align: center;
+}
