@@ -24,4 +24,7 @@ class PagesController < ApplicationController
   def project3
   end
 
+  def design1
+  end
+
 end

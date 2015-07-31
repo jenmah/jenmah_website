@@ -12,6 +12,11 @@
 	margin-top: 7%;
 }
 
+.seventy-five-percent {
+	width: 75%;
+	margin-top: 7%;
+}
+
 .ninety-percent {
 	width: 80%;
 	margin-top: 7%;
@@ -52,7 +57,7 @@
 			margin: 0;
 		}
 		.download-here {
-			margin-bottom: 25%;
+			margin-bottom: 50%;
 		}
 }
 
@@ -91,17 +96,25 @@
 
 .experience {
 	p {
-		margin: 1% 0% 2% 0%;
+		margin: 0% 0% 0% 0%;
 		.italic {
 			margin-bottom: 2%;
 		}
 	}
 	h4 {
-		margin: 5% 0% 0% 0%;
+		margin: 4% 0% 0% 0%;
+	}
+	#work-experience-h2 {
+		margin-bottom: -2%;
 	}
 }
 
 .project {
 	margin-right: 3%;
 	vertical-align: top;
+}
+
+.general-assembly-section {
+	margin-top: 7%;
+	margin-bottom: 1%;
 }

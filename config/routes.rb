@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   get '/code/project2' => 'pages#project2'
   get '/code/project3' => 'pages#project3'
 
+  get '/code/design1' => 'pages#design1'
+
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'

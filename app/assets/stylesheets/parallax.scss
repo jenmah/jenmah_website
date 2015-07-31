@@ -10,8 +10,8 @@
 
 /* Typography */
 /**************************/
-#parallax-world-of-ugg h1 {padding:0; margin:0; text-align: center; font-size: 300%;}
-#parallax-world-of-ugg h3 {text-align: center;}
+#parallax-world-of-ugg h1 {padding:0; margin:0; text-align: center; font-size: 200%;}
+#parallax-world-of-ugg h3 {text-align: center; color: rgba(170, 170, 170, 1);}
 
 
 /* Section - Title */
@@ -27,9 +27,9 @@
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 20%; padding-bottom: 4%; width: 100%; background-image: url(fontfinder1-cropped.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(fontfinder2.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(http://dw2.web.deckers.demandware.net/on/demandware.static/Sites-UGG-US-Site/Sites-UGG-US-Library/default/v1389110192142/images/ugg-joelene.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-one {padding-top: 12%; padding-bottom: 4%; width: 100%; height: 100%; background-image: url(fontfinder1-cropped.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+#parallax-world-of-ugg .parallax-two {padding-top: 13%; padding-bottom: 13%; overflow: hidden; position: relative; width: 100%; background-image: url(fontfinder2.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
+#parallax-world-of-ugg .parallax-three {padding-top: 13%; padding-bottom: 13%; overflow: hidden; position: relative; width: 100%; background-image: url(bucketlist1.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 
 /* Media Queries */

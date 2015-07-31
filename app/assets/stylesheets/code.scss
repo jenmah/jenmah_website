@@ -1,3 +1,90 @@
 .screenshot-photo {
 	width: 80%;
 }
+
+.code-project {
+	margin: 7% 10% 10% 10%;
+	.about-project {
+		display: inline-block;
+		width: 70%;
+		vertical-align: top;
+		h4 {
+			margin-top: 5%;
+		}
+	}
+	.project-facts {
+		display: inline-block;
+		width: 15%;
+		text-align: center;
+		margin-left: 8%;
+		h1 {
+			color: rgba(200, 200, 200, 1);
+			margin: 0;
+		}
+		h4 {
+			margin: 0;
+		}
+		.fact {
+			margin-bottom: 40%;
+		}
+	}
+}
+
+.bullet-points {
+	list-style-type: disc;
+	color: rgba(198, 172, 140, 1);
+	p {
+		margin: 0;
+	}
+}
+
+.first-column {
+	width: 20%;
+	vertical-align: top;
+}
+
+.second-column {
+	width: 20%;
+	vertical-align: top;
+}
+
+.third-column {
+	width: 20%;
+	vertical-align: top;
+}
+
+.launch-site {
+	color: rgba(198, 172, 140, 1);
+	list-style-type: none;
+	border: 2px solid rgba(198, 172, 140, 1);
+	padding: 2% 2%;
+	a:link{
+	  color: rgba(198, 172, 140, 1);
+	  text-decoration: none;
+	}
+	a:visited{
+	  color: rgba(198, 172, 140, 1);
+	  text-decoration: none;
+	}
+	a:hover{
+	  color: rgba(198, 172, 140, 1);
+	  text-decoration: none;
+	}
+	a:focus{
+	  color: rgba(198, 172, 140, 1);
+	  text-decoration: none;
+	}
+	a:active{
+	  color: rgba(198, 172, 140, 1);
+	  text-decoration: none;
+	}
+}
+
+.portfolio-photos {
+	margin-top: 7%;
+	.code-photo {
+		width: 100%;
+		margin-bottom: 4%;
+	}
+}
+
