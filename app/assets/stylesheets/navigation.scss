@@ -41,14 +41,14 @@ html, body {
 	  color: rgba(90, 90, 90, 1);
 	}
 	a:hover{
-	  color: rgba(200, 200, 200, 1);
+	  // color: rgba(200, 200, 200, 1);
 	}
 	i {
 	  margin-right: 4%;
 	  color: rgba(90, 90, 90, 1);
 	}
 	i:hover {
-		color: rgba(200, 200, 200, 1);
+		// color: rgba(200, 200, 200, 1);
 	}
 	.nav-links {
 		margin-top: 25%;
@@ -116,4 +116,15 @@ html, body {
 .nav-buttons {
 	background-color: transparent;
 	border: none;
+	outline: none;
+}
+
+#first-nav:hover {
+	background-color: red;
+	color: rgba(200, 200, 200, 1);
+	border: none;
+}
+
+#first-nav:hover h4 {
+	color: white;
 }
