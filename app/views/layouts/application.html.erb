@@ -8,6 +8,7 @@
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -27,12 +28,14 @@
 		</div>
 
 		<div id="second-nav">
-			<button class="nav-buttons">
+		<a href="http://google.com" class="nav-button">
+			<!-- <button class="nav-buttons"> -->
 				<h4><li id="resume-li">
 				<h4><li><%= link_to('WORK', code_path) %></li></h4>
 					<hr class="nav-hr"><i class="fa fa-desktop animated pulse"></i><hr class="nav-hr">
 				  <h3><li><%= link_to('code & design portfolio', code_path) %></li></h3>
-			</button>
+			<!-- </button> -->
+		</a>
 		</div>	
 
 		<div id="third-nav">

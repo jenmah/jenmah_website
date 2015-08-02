@@ -4,6 +4,7 @@
     <div class="parallax-one">
       <%= image_tag("logo.png", :class => "logo", :alt => "jmah-logo") %>
       <h1 id="jennifer-mah">Jennifer Mah</h1>
+      <button id="test-button">click me!</button>
       <h3 id="job-title">graphic designer & web developer</h3>
       <div id="scroll-down">
         <h4>SCROLL DOWN FOR MORE</h4>
@@ -14,7 +15,7 @@
 
 <section>
   <div class="block">
-    <div class="section-header">
+    <div class="section-header" id="resume-div">
     <h1>RESUME</h1>
     <h3 class="small-h3">a little bit about me</h3>
   </div>
@@ -113,14 +114,16 @@
       <h3 class="small-h3">my code & design projects</h3>
     </div>
         <div class="one-hundred-percent">
-          <div class="experience work">
+          <div class="experience">
 
+        <button class="work-buttons" id="work-button-one">
           <div class="one-third project work-box work-one">
             <%= image_tag("fontfinder2.jpg", :class => "work-box-photo") %>
             <h4>FONT FINDER</h4>
             <h3>web development</h3>
             <h3><%= link_to('find out more', code_project1_path) %></h3>
           </div>
+        </button>
 
           <div class="one-third project work-box work-two">
             <%= image_tag("fontfinder2.jpg", :class => "work-box-photo") %>
@@ -182,6 +185,7 @@
         <h4>SAY HI</h4>
         <p>07823465665<p>
         <p>jen.mah@hotmail.com</p>
+        <button id="testing-button">click me!</button>
       </div>
 
       <div class="inline-block check-out">
