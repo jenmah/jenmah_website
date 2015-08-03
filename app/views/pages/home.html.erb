@@ -4,7 +4,6 @@
     <div class="parallax-one">
       <%= image_tag("logo.png", :class => "logo", :alt => "jmah-logo") %>
       <h1 id="jennifer-mah">Jennifer Mah</h1>
-      <!-- <button id="test-button">click me!</button> -->
       <h3 id="job-title">graphic designer & web developer</h3>
       <div id="scroll-down">
         <h4>SCROLL DOWN FOR MORE</h4>
@@ -116,10 +115,35 @@
         <div class="one-hundred-percent">
           <div class="experience">
 
+          <div class="image-wrapper"> 
+            <img src="http://i.imgur.com/oMF0zpV.jpg" alt="sometext" class="work-box-photo"/> 
+            <div class="overlay">
+                <h4>FONT FINDER</h4>
+                <h3>web development</h3>
+                <h3><%= link_to('find out more', code_project1_path) %></h3>
+            </div>
+          </div>
+
+          <div class="image-wrapper"> 
+            <img src="http://i.imgur.com/oMF0zpV.jpg" alt="sometext" class="work-box-photo"/> 
+            <div class="overlay">
+                <h4>THREE THINGS I DID</h4>
+                <h3>web development</h3>
+            </div>
+          </div>
+
+          <div class="image-wrapper"> 
+            <img src="http://i.imgur.com/uZl5ELc.jpg" alt="sometext" class="work-box-photo"/> 
+            <div class="overlay">
+                <h4>BEFORE I KICK IT</h4>
+                <h3>web development</h3>
+            </div>
+          </div>
+
         <!-- <button class="work-buttons" id="work-button-one"> -->
           <div class="one-third project work-box work-one">
             <%= image_tag("fontfinder2.jpg", :class => "work-box-photo") %>
-            <h4>FONT FINDER</h4>
+            <h4 class="overlay-text">FONT FINDER</h4>
             <h3>web development</h3>
             <h3><%= link_to('find out more', code_project1_path) %></h3>
           </div>

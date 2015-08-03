@@ -51,8 +51,8 @@ html, body {
 		// color: rgba(200, 200, 200, 1);
 	}
 	.nav-links {
-		margin-top: 25%;
-		margin-bottom: 40%;
+		margin-top: 35%;
+		margin-bottom: 45%;
 		text-align: center;
 			h4 {
 				font-size: 90%;
@@ -70,8 +70,8 @@ html, body {
 				width: 15%;
 			}
 			#second-nav {
-				margin-top: 30%;
-				margin-bottom: 30%;
+				margin-top: 40%;
+				margin-bottom: 40%;
 			}
 	}
 	.small-h3 {
@@ -119,11 +119,11 @@ html, body {
 	outline: none;
 }
 
-#first-nav:hover {
-	background-color: red;
-	color: rgba(200, 200, 200, 1);
-	border: none;
-}
+// #first-nav:hover {
+// 	background-color: red;
+// 	color: rgba(200, 200, 200, 1);
+// 	border: none;
+// }
 
 #first-nav:hover h4 {
 	color: white;
