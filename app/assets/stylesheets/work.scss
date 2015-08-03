@@ -64,11 +64,20 @@
 	height: 55%;
 	color: white;
 	h4 {
-		color: rgba(130, 130, 130, 1);
+		color: rgba(120, 120, 120, 1);
 		font-size: 85%;
+		padding-bottom: 5%;
+		padding-top: 7%;
 	}
 	h3 {
-		color: rgba(130, 130, 130, 1);
+		border-top: 1px solid grey;
+		width: 80%;
+		margin: 0 auto;
+		color: rgba(120, 120, 120, 1);
 		font-size: 80%;
+		padding-top: 5%;
+	}
+	a:hover, a:visited, a:link, a:active {
+	  color: rgba(120, 120, 120, 1);
 	}
 }
