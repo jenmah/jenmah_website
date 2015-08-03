@@ -17,6 +17,7 @@
 		width: 15%;
 		text-align: center;
 		margin-left: 8%;
+		margin-top: 5%;
 		h1 {
 			color: rgba(200, 200, 200, 1);
 			margin: 0;
@@ -26,6 +27,13 @@
 		}
 		.fact {
 			margin-bottom: 40%;
+			i {
+				color: rgba(200, 200, 200, 1);
+				margin-bottom: 10%;
+			}
+			i:hover {
+				color: rgba(198, 172, 140, 1);
+			}
 		}
 	}
 }
@@ -53,11 +61,13 @@
 	vertical-align: top;
 }
 
-.launch-site {
+.back-to-projects {
 	color: rgba(198, 172, 140, 1);
 	list-style-type: none;
 	border: 2px solid rgba(198, 172, 140, 1);
 	padding: 2% 2%;
+	text-align: center;
+	margin-bottom: 20%;
 	a:link{
 	  color: rgba(198, 172, 140, 1);
 	  text-decoration: none;
@@ -67,7 +77,7 @@
 	  text-decoration: none;
 	}
 	a:hover{
-	  color: rgba(198, 172, 140, 1);
+	  color: white;
 	  text-decoration: none;
 	}
 	a:focus{
@@ -77,6 +87,13 @@
 	a:active{
 	  color: rgba(198, 172, 140, 1);
 	  text-decoration: none;
+	}
+}
+
+.back-to-projects:hover {
+	background-color: rgba(198, 172, 140, 1);
+	a {
+	color: white;
 	}
 }
 

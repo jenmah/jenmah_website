@@ -59,7 +59,7 @@
 	bottom: 10%;
 	margin: auto;
 	padding: 5% 5% 5% 5%; 
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255, 255, 255, 0.9);
 	width: 70%; 
 	height: 55%;
 	color: white;
@@ -70,14 +70,17 @@
 		padding-top: 7%;
 	}
 	h3 {
-		border-top: 1px solid grey;
+		border-top: 1px solid rgba(180, 180, 180, 1);
 		width: 80%;
 		margin: 0 auto;
-		color: rgba(120, 120, 120, 1);
+		color: rgba(198, 172, 140, 1);
 		font-size: 80%;
 		padding-top: 5%;
 	}
-	a:hover, a:visited, a:link, a:active {
-	  color: rgba(120, 120, 120, 1);
+	a:visited, a:link, a:active {
+	  color: rgba(198, 172, 140, 1);
+	}
+	a:hover {
+		color: rgba(120, 120, 120, 1);
 	}
 }
