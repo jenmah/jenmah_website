@@ -1,4 +1,4 @@
-@media handheld, screen and (max-width: 600px) {
+@media handheld, screen and (max-width: 700px) {
 	#navigation-bar { 
 		display: none; 
 	}
@@ -8,6 +8,14 @@
   #contact-me {
     margin-bottom: 35%;
   }
+  #jennifer-mah {
+    line-height: 90%;
+  } 
+  // #parallax-world-of-ugg .parallax-one {
+  //   padding-top: 0%;
+  // }
+  // .image-wrapper {
+  //   display: block;
+  //   width: 100%;
+  // }
 }
-
-

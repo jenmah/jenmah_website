@@ -1,10 +1,17 @@
-$(document).ready(function(){
+$(function(){
 
-$("#test-button").click(function() {
-    console.log('testing');
-    $('html,body').animate({
-        scrollTop: $("#resume-div").offset().top},
-        'slow');
-});
+var scrollToSection = function(button, location){
+  $(button).click( function(){
+    $('html, body').animate({
+        scrollTop: location,
+    }, 1000);
+  });
+}
+
+var initialize = function(){
+  scrollToSection('.test-button', 775);
+  };
+
+$(initialize) 
 
 });
